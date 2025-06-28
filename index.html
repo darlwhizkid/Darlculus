@@ -1,0 +1,1349 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Darlculus - Software Engineer & Graphic Designer</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- Preloader Section -->
+    <div id="preloader">
+      <div class="preloader-container">
+        <!-- Background Tech Grid -->
+        <div class="tech-grid"></div>
+
+        <!-- Main Loading Circle -->
+        <div class="loading-circle">
+          <div class="outer-ring"></div>
+          <div class="middle-ring"></div>
+          <div class="inner-core"></div>
+
+          <!-- Percentage Display -->
+          <div class="percentage-display"><span id="percentage">0</span>%</div>
+        </div>
+
+        <!-- Floating Particles -->
+        <div class="particles-container">
+          <div class="particle"></div>
+          <div class="particle"></div>
+          <div class="particle"></div>
+          <div class="particle"></div>
+          <div class="particle"></div>
+          <div class="particle"></div>
+        </div>
+
+        <!-- Brand Name -->
+        <div class="brand-name">DARLCULUS</div>
+
+        <!-- Loading Status -->
+        <div class="loading-status">INITIALIZING SYSTEMS...</div>
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <div id="main-content" style="display: none">
+      <!-- ========== NAVBAR SECTION ========== -->
+      <nav class="navbar">
+        <!-- Navbar Background Effects -->
+        <div class="navbar-bg-effect"></div>
+        <div class="navbar-glow"></div>
+
+        <div class="navbar-container">
+          <!-- Left Side - Wave + Greeting -->
+          <div class="navbar-greeting">
+            <div class="wave-animation">👋</div>
+            <span
+              class="greeting-text"
+              data-en="Hello, I'm"
+              data-fr="Salut, je suis"
+              data-es="Hola, soy"
+              >Hello, I'm</span
+            >
+          </div>
+
+          <!-- Center - Navigation Menu -->
+          <div class="navbar-menu">
+            <ul class="nav-links">
+              <li>
+                <a
+                  href="#about"
+                  data-en="About"
+                  data-fr="À propos"
+                  data-es="Acerca"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#skills"
+                  data-en="Skills"
+                  data-fr="Compétences"
+                  data-es="Habilidades"
+                  >Skills</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#portfolio"
+                  data-en="Portfolio"
+                  data-fr="Portfolio"
+                  data-es="Portafolio"
+                  >Portfolio</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#contact"
+                  data-en="Contact"
+                  data-fr="Contact"
+                  data-es="Contacto"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- Mobile Hamburger Menu -->
+          <div class="hamburger-menu">
+            <div class="hamburger-icon">
+              <span class="line line1"></span>
+              <span class="line line2"></span>
+              <span class="line line3"></span>
+            </div>
+          </div>
+
+          <!-- Right Side - Controls -->
+          <div class="navbar-controls">
+            <!-- Language Selector -->
+            <div class="language-selector">
+              <button class="language-btn" id="languageBtn">
+                <span class="flag-icon">🇺🇸</span>
+                <span class="language-text">EN</span>
+                <span class="dropdown-arrow">▼</span>
+              </button>
+              <div class="language-dropdown" id="languageDropdown">
+                <button class="language-option active" data-lang="en">
+                  <span class="flag-icon">🇺🇸</span>
+                  <span>English</span>
+                </button>
+                <button class="language-option" data-lang="fr">
+                  <span class="flag-icon">🇫🇷</span>
+                  <span>Français</span>
+                </button>
+                <button class="language-option" data-lang="es">
+                  <span class="flag-icon">🇪🇸</span>
+                  <span>Español</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- Theme Toggle -->
+            <div class="theme-toggle">
+              <div class="toggle-container">
+                <div class="toggle-track">
+                  <div class="toggle-thumb">
+                    <div class="toggle-icon sun-icon">☀️</div>
+                    <div class="toggle-icon moon-icon">🌙</div>
+                  </div>
+                </div>
+                <div class="toggle-glow"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mobile Menu Overlay -->
+        <div class="mobile-menu-overlay">
+          <div class="mobile-menu-content">
+            <ul class="mobile-nav-links">
+              <li>
+                <a
+                  href="#about"
+                  data-en="About"
+                  data-fr="À propos"
+                  data-es="Acerca"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#skills"
+                  data-en="Skills"
+                  data-fr="Compétences"
+                  data-es="Habilidades"
+                  >Skills</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#portfolio"
+                  data-en="Portfolio"
+                  data-fr="Portfolio"
+                  data-es="Portafolio"
+                  >Portfolio</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#services"
+                  data-en="Services"
+                  data-fr="Services"
+                  data-es="Servicios"
+                  >Services</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#contact"
+                  data-en="Contact"
+                  data-fr="Contact"
+                  data-es="Contacto"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Navbar Border Animation -->
+        <div class="navbar-border"></div>
+      </nav>
+
+      <!-- ========== HERO SECTION ========== -->
+      <section class="hero" id="hero">
+        <!-- Hero Background Effects -->
+        <div class="hero-bg-grid"></div>
+        <div class="hero-particles">
+          <div class="particle-float"></div>
+          <div class="particle-float"></div>
+          <div class="particle-float"></div>
+          <div class="particle-float"></div>
+          <div class="particle-float"></div>
+          <div class="particle-float"></div>
+        </div>
+
+        <!-- Geometric Shapes -->
+        <div class="geometric-shapes">
+          <div class="shape shape-1"></div>
+          <div class="shape shape-2"></div>
+          <div class="shape shape-3"></div>
+          <div class="shape shape-4"></div>
+        </div>
+
+        <div class="hero-container">
+          <!-- Main Content -->
+          <div class="hero-content">
+            <!-- Animated Brand Name -->
+            <div class="brand-animation">
+              <h1 class="brand-name-hero">DARLCULUS</h1>
+            </div>
+
+            <!-- Dynamic Typing Text -->
+            <div class="hero-roles">
+              <span
+                class="role-prefix"
+                data-en="I'm a"
+                data-fr="Je suis"
+                data-es="Soy"
+                >I'm a</span
+              >
+              <span class="typing-text">
+                <span class="typed-text"></span>
+                <span class="cursor">|</span>
+              </span>
+            </div>
+
+            <!-- Hero Description -->
+            <p
+              class="hero-description"
+              data-en="Crafting digital experiences through innovative software solutions and stunning visual designs. Let's bring your ideas to life with cutting-edge technology and creative excellence."
+              data-fr="Créer des expériences numériques grâce à des solutions logicielles innovantes et des designs visuels époustouflants. Donnons vie à vos idées avec une technologie de pointe et une excellence créative."
+              data-es="Creando experiencias digitales a través de soluciones de software innovadoras y diseños visuales impresionantes. Demos vida a tus ideas con tecnología de vanguardia y excelencia creativa."
+            >
+              Crafting digital experiences through innovative software solutions
+              and stunning visual designs. Let's bring your ideas to life with
+              cutting-edge technology and creative excellence.
+            </p>
+
+            <!-- Call to Action Buttons -->
+            <div class="hero-cta">
+              <button class="cta-btn primary-btn" id="downloadCV">
+                <span class="btn-icon">📄</span>
+                <span
+                  class="btn-text"
+                  data-en="Download CV"
+                  data-fr="Télécharger CV"
+                  data-es="Descargar CV"
+                  >Download CV</span
+                >
+                <div class="btn-glow"></div>
+              </button>
+
+              <button
+                class="cta-btn tertiary-btn"
+                onclick="scrollToSection('contact')"
+              >
+                <span class="btn-icon">💬</span>
+                <span
+                  class="btn-text"
+                  data-en="Let's Talk"
+                  data-fr="Parlons"
+                  data-es="Hablemos"
+                  >Let's Talk</span
+                >
+                <div class="btn-glow"></div>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Scroll Indicator -->
+        <div class="scroll-indicator">
+          <div
+            class="scroll-text"
+            data-en="Scroll Down"
+            data-fr="Défiler"
+            data-es="Desplazar"
+          >
+            Scroll Down
+          </div>
+          <div class="scroll-arrow">
+            <div class="arrow-line"></div>
+            <div class="arrow-head"></div>
+          </div>
+        </div>
+      </section>
+    
+
+      <!-- ========== ABOUT SECTION ========== -->
+      <section class="about" id="about">
+        <div class="about-container">
+          <!-- Section Header -->
+          <div class="section-header">
+            <span
+              class="section-label"
+              data-en="Get to know me"
+              data-fr="Apprenez à me connaître"
+              data-es="Conóceme"
+              >Get to know me</span
+            >
+            <h2
+              class="section-title"
+              data-en="About Me"
+              data-fr="À Propos"
+              data-es="Acerca de Mí"
+            >
+              About Me
+            </h2>
+            <div class="section-divider">
+              <div class="divider-line"></div>
+              <div class="divider-dot"></div>
+              <div class="divider-line"></div>
+            </div>
+          </div>
+
+          <div class="about-content">
+            <!-- About Text -->
+            <div class="about-text">
+              <div class="about-intro">
+                <h3
+                  class="about-subtitle"
+                  data-en="Creative Developer & Designer"
+                  data-fr="Développeur & Designer Créatif"
+                  data-es="Desarrollador y Diseñador Creativo"
+                >
+                  Creative Developer & Designer
+                </h3>
+                <p
+                  class="about-description"
+                  data-en="Hi! My name is Darlington, but you can call me Darlculus; you know - like 'Calculus'. I'm a passionate software engineer and graphic designer who loves creating digital experiences that blend functionality with stunning visual design. With expertise in both development and design, I bring a unique perspective to every project."
+                  data-fr="Salut ! Je m'appelle Darlington, mais vous pouvez m'appeler Darlculus ; vous savez - comme 'Calculus'. Je suis un ingénieur logiciel et graphiste passionné qui aime créer des expériences numériques alliant fonctionnalité et design visuel époustouflant. Avec une expertise en développement et en design, j'apporte une perspective unique à chaque projet."
+                  data-es="¡Hola! Mi nombre es Darlington, pero puedes llamarme Darlculus; ya sabes, como 'Calculus'. Soy un ingeniero de software y diseñador gráfico apasionado que ama crear experiencias digitales que combinan funcionalidad con diseño visual impresionante. Con experiencia en desarrollo y diseño, aporto una perspectiva única a cada proyecto."
+                >
+                  Hi! My name is Darlington, but you can call me Darlculus; you know - like "Calculus". I'm a passionate software engineer and graphic designer who
+                  loves creating digital experiences that blend functionality
+                  with stunning visual design. With expertise in both
+                  development and design, I bring a unique perspective to every
+                  project.
+                </p>
+              </div>
+
+              <!-- Stats -->
+              <div class="about-stats">
+                <div class="stat-item">
+                  <div class="stat-number" data-count="50">0</div>
+                  <div
+                    class="stat-label"
+                    data-en="Projects Completed"
+                    data-fr="Projets Terminés"
+                    data-es="Proyectos Completados"
+                  >
+                    Projects Completed
+                  </div>
+                </div>
+                <div class="stat-item">
+                  <div class="stat-number" data-count="3">0</div>
+                  <div
+                    class="stat-label"
+                    data-en="Years Experience"
+                    data-fr="Années d'Expérience"
+                    data-es="Años de Experiencia"
+                  >
+                    Years Experience
+                  </div>
+                </div>
+                <div class="stat-item">
+                  <div class="stat-number" data-count="25">0</div>
+                  <div
+                    class="stat-label"
+                    data-en="Happy Clients"
+                    data-fr="Clients Satisfaits"
+                    data-es="Clientes Felices"
+                  >
+                    Happy Clients
+                  </div>
+                </div>
+              </div>
+
+              <!-- Skills Preview -->
+              <div class="skills-preview">
+                <h4
+                  class="skills-title"
+                  data-en="Core Technologies"
+                  data-fr="Technologies Principales"
+                  data-es="Tecnologías Principales"
+                >
+                  Core Technologies
+                </h4>
+                <div class="skills-tags">
+                  <span class="skill-tag">JavaScript</span>
+                  <span class="skill-tag">React</span>
+                  <span class="skill-tag">Node.js</span>
+                  <span class="skill-tag">GitHub</span>
+                  <span class="skill-tag">Adobe Creative Suite</span>
+                  <span class="skill-tag">Figma</span>
+                  <span class="skill-tag">UI/UX Design</span>
+                  <span class="skill-tag">MongoDB</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- About Image/Visual -->
+            <div class="about-visual">
+              <!-- Replace the about-image section with this -->
+              <div class="about-image-container">
+                <div class="about-image">
+                  <img
+                    src="assets/images/mepic.jpg"
+                    alt="DARLCULUS Profile"
+                    class="profile-image"
+                  />
+                </div>
+                <div class="image-decoration">
+                  <div class="decoration-shape shape-1"></div>
+                  <div class="decoration-shape shape-2"></div>
+                  <div class="decoration-shape shape-3"></div>
+                </div>
+              </div>
+
+              <!-- Quick Info Cards -->
+              <div class="info-cards">
+                <div class="info-card">
+                  <div class="card-icon">🎯</div>
+                  <div class="card-content">
+                    <h5 data-en="Mission" data-fr="Mission" data-es="Misión">
+                      Mission
+                    </h5>
+                    <p
+                      data-en="Creating innovative solutions"
+                      data-fr="Créer des solutions innovantes"
+                      data-es="Crear soluciones innovadoras"
+                    >
+                      Creating innovative solutions
+                    </p>
+                  </div>
+                </div>
+                <div class="info-card">
+                  <div class="card-icon">💡</div>
+                  <div class="card-content">
+                    <h5 data-en="Vision" data-fr="Vision" data-es="Visión">
+                      Vision
+                    </h5>
+                    <p
+                      data-en="Digital excellence for all"
+                      data-fr="Excellence numérique pour tous"
+                      data-es="Excelencia digital para todos"
+                    >
+                      Digital excellence for all
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Background Elements -->
+        <div class="about-bg-elements">
+          <div class="bg-shape bg-shape-1"></div>
+          <div class="bg-shape bg-shape-2"></div>
+          <div class="floating-elements">
+            <div class="float-element element-1">{ }</div>
+            <div class="float-element element-2"></></div>
+            <div class="float-element element-3">🎨</div>
+          </div>
+        </div>
+      </section>
+      <!-- Add this right after the about section -->
+
+<!-- ========== SKILLS SECTION ========== -->
+<section class="skills" id="skills">
+    <div class="skills-container">
+        <!-- Section Header -->
+        <div class="section-header">
+            <span class="section-label" data-en="What I'm good at" data-fr="Ce que je maîtrise" data-es="En lo que soy bueno">What I'm good at</span>
+            <h2 class="section-title" data-en="My Skills" data-fr="Mes Compétences" data-es="Mis Habilidades">My Skills</h2>
+            <div class="section-divider">
+                <div class="divider-line"></div>
+                <div class="divider-dot"></div>
+                <div class="divider-line"></div>
+            </div>
+        </div>
+
+        <div class="skills-content">
+            <!-- Technical Skills -->
+            <div class="skills-category">
+                <div class="category-header">
+                    <div class="category-icon">💻</div>
+                    <h3 class="category-title" data-en="Technical Skills" data-fr="Compétences Techniques" data-es="Habilidades Técnicas">Technical Skills</h3>
+                </div>
+                
+                <div class="skills-grid">
+                    <div class="skill-item" data-skill="90">
+                        <div class="skill-header">
+                            <div class="skill-info">
+                                <span class="skill-name">JavaScript</span>
+                                <span class="skill-percentage">0%</span>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item" data-skill="85">
+                        <div class="skill-header">
+                            <div class="skill-info">
+                                <span class="skill-name">React.js</span>
+                                <span class="skill-percentage">0%</span>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item" data-skill="80">
+                        <div class="skill-header">
+                            <div class="skill-info">
+                                <span class="skill-name">Node.js</span>
+                                <span class="skill-percentage">0%</span>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item" data-skill="88">
+                        <div class="skill-header">
+                            <div class="skill-info">
+                                <span class="skill-name">Python</span>
+                                <span class="skill-percentage">0%</span>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="88"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item" data-skill="75">
+                        <div class="skill-header">
+                            <div class="skill-info">
+                                <span class="skill-name">MongoDB</span>
+                                <span class="skill-percentage">0%</span>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="75"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item" data-skill="82">
+                        <div class="skill-header">
+                            <div class="skill-info">
+                                <span class="skill-name">Git & GitHub</span>
+                                <span class="skill-percentage">0%</span>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="82"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Design Skills -->
+            <div class="skills-category">
+                <div class="category-header">
+                    <div class="category-icon">🎨</div>
+                    <h3 class="category-title" data-en="Design Skills" data-fr="Compétences Design" data-es="Habilidades de Diseño">Design Skills</h3>
+                </div>
+                
+                <div class="skills-grid">
+                    <div class="skill-item" data-skill="95">
+                        <div class="skill-header">
+                            <div class="skill-info">
+                                <span class="skill-name">Adobe Photoshop</span>
+                                <span class="skill-percentage">0%</span>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item" data-skill="90">
+                        <div class="skill-header">
+                            <div class="skill-info">
+                                <span class="skill-name">Adobe Illustrator</span>
+                                <span class="skill-percentage">0%</span>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item" data-skill="85">
+                        <div class="skill-header">
+                            <div class="skill-info">
+                                <span class="skill-name">Figma</span>
+                                <span class="skill-percentage">0%</span>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item" data-skill="88">
+                        <div class="skill-header">
+                            <div class="skill-info">
+                                <span class="skill-name">UI/UX Design</span>
+                                <span class="skill-percentage">0%</span>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="88"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item" data-skill="80">
+                        <div class="skill-header">
+                            <div class="skill-info">
+                                <span class="skill-name">After Effects</span>
+                                <span class="skill-percentage">0%</span>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item" data-skill="92">
+                        <div class="skill-header">
+                            <div class="skill-info">
+                                <span class="skill-name">Brand Design</span>
+                                <span class="skill-percentage">0%</span>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="92"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Skills Summary -->
+        <div class="skills-summary">
+            <div class="summary-item">
+                <div class="summary-icon">🚀</div>
+                <div class="summary-content">
+                    <h4 data-en="Full Stack Development" data-fr="Développement Full Stack" data-es="Desarrollo Full Stack">Full Stack Development</h4>
+                    <p data-en="End-to-end web application development" data-fr="Développement d'applications web de bout en bout" data-es="Desarrollo de aplicaciones web de extremo a extremo">End-to-end web application development</p>
+                </div>
+            </div>
+            
+            <div class="summary-item">
+                <div class="summary-icon">✨</div>
+                <div class="summary-content">
+                    <h4 data-en="Creative Design" data-fr="Design Créatif" data-es="Diseño Creativo">Creative Design</h4>
+                    <p data-en="Visual identity and user experience design" data-fr="Identité visuelle et conception d'expérience utilisateur" data-es="Identidad visual y diseño de experiencia de usuario">Visual identity and user experience design</p>
+                </div>
+            </div>
+            
+            <div class="summary-item">
+                <div class="summary-icon">⚡</div>
+                <div class="summary-content">
+                    <h4 data-en="Performance Optimization" data-fr="Optimisation des Performances" data-es="Optimización de Rendimiento">Performance Optimization</h4>
+                    <p data-en="Fast, efficient, and scalable solutions" data-fr="Solutions rapides, efficaces et évolutives" data-es="Soluciones rápidas, eficientes y escalables">Fast, efficient, and scalable solutions</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Background Elements -->
+    <div class="skills-bg-elements">
+        <div class="code-snippet snippet-1">
+            <span class="code-line">const skills = {</span>
+            <span class="code-line">  frontend: ['React', 'JS'],</span>
+            <span class="code-line">  backend: ['Node', 'Python']</span>
+            <span class="code-line">};</span>
+        </div>
+        
+        <div class="code-snippet snippet-2">
+            <span class="code-line">.design {</span>
+            <span class="code-line">  creativity: 100%;</span>
+            <span class="code-line">  innovation: always;</span>
+            <span class="code-line">}</span>
+        </div>
+        
+        <div class="floating-icons">
+            <div class="float-icon icon-1">⚛️</div>
+            <div class="float-icon icon-2">🐍</div>
+            <div class="float-icon icon-3">🎯</div>
+            <div class="float-icon icon-4">💡</div>
+        </div>
+    </div>
+</section>
+<!-- Add this right after the skills section -->
+
+<!-- ========== PORTFOLIO SECTION ========== -->
+<section class="portfolio" id="portfolio">
+    <div class="portfolio-container">
+        <!-- Section Header -->
+        <div class="section-header">
+            <span class="section-label" data-en="My Recent Work" data-fr="Mon Travail Récent" data-es="Mi Trabajo Reciente">My Recent Work</span>
+            <h2 class="section-title" data-en="Portfolio" data-fr="Portfolio" data-es="Portafolio">Portfolio</h2>
+            <div class="section-divider">
+                <div class="divider-line"></div>
+                <div class="divider-dot"></div>
+                <div class="divider-line"></div>
+            </div>
+            <p class="section-description" 
+               data-en="Here are some of my favorite projects that showcase my skills in both development and design."
+               data-fr="Voici quelques-uns de mes projets préférés qui mettent en valeur mes compétences en développement et en design."
+               data-es="Aquí están algunos de mis proyectos favoritos que muestran mis habilidades en desarrollo y diseño.">
+                Here are some of my favorite projects that showcase my skills in both development and design.
+            </p>
+        </div>
+
+        <!-- Portfolio Filter -->
+        <div class="portfolio-filter">
+            <button class="filter-btn active" data-filter="all" 
+                    data-en="All Projects" data-fr="Tous les Projets" data-es="Todos los Proyectos">All Projects</button>
+            <button class="filter-btn" data-filter="web" 
+                    data-en="Web Development" data-fr="Développement Web" data-es="Desarrollo Web">Web Development</button>
+            <button class="filter-btn" data-filter="design" 
+                    data-en="Design" data-fr="Design" data-es="Diseño">Design</button>
+            <button class="filter-btn" data-filter="mobile" 
+                    data-en="Mobile Apps" data-fr="Applications Mobiles" data-es="Aplicaciones Móviles">Mobile Apps</button>
+        </div>
+
+        <!-- Portfolio Grid -->
+        <div class="portfolio-grid">
+            <!-- Project 1 -->
+            <div class="portfolio-item" data-category="web">
+                <div class="project-image">
+                    <img src="assets/images/project1.jpg" alt="E-Commerce Platform" class="project-img">
+                    <div class="project-overlay">
+                        <div class="project-actions">
+                            <button class="action-btn preview-btn" data-project="1">
+                                <span class="btn-icon">👁️</span>
+                                <span class="btn-text" data-en="Preview" data-fr="Aperçu" data-es="Vista Previa">Preview</span>
+                            </button>
+                            <button class="action-btn github-btn" onclick="window.open('#', '_blank')">
+                                <span class="btn-icon">📂</span>
+                                <span class="btn-text" data-en="Code" data-fr="Code" data-es="Código">Code</span>
+                            </button>
+                            <button class="action-btn live-btn" onclick="window.open('#', '_blank')">
+                                <span class="btn-icon">🚀</span>
+                                <span class="btn-text" data-en="Live" data-fr="Live" data-es="En Vivo">Live</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <div class="project-category">Web Development</div>
+                    <h3 class="project-title" data-en="E-Commerce Platform" data-fr="Plateforme E-Commerce" data-es="Plataforma E-Commerce">E-Commerce Platform</h3>
+                    <p class="project-description" 
+                       data-en="A full-stack e-commerce solution with React, Node.js, and MongoDB. Features include user authentication, payment integration, and admin dashboard."
+                       data-fr="Une solution e-commerce full-stack avec React, Node.js et MongoDB. Comprend l'authentification utilisateur, l'intégration de paiement et un tableau de bord admin."
+                       data-es="Una solución de comercio electrónico full-stack con React, Node.js y MongoDB. Incluye autenticación de usuario, integración de pagos y panel de administración.">
+                        A full-stack e-commerce solution with React, Node.js, and MongoDB. Features include user authentication, payment integration, and admin dashboard.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">MongoDB</span>
+                        <span class="tech-tag">Stripe</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="portfolio-item" data-category="design">
+                <div class="project-image">
+                    <img src="assets/images/project2.jpg" alt="Brand Identity Design" class="project-img">
+                    <div class="project-overlay">
+                        <div class="project-actions">
+                            <button class="action-btn preview-btn" data-project="2">
+                                <span class="btn-icon">👁️</span>
+                                <span class="btn-text" data-en="Preview" data-fr="Aperçu" data-es="Vista Previa">Preview</span>
+                            </button>
+                            <button class="action-btn behance-btn" onclick="window.open('#', '_blank')">
+                                <span class="btn-icon">🎨</span>
+                                <span class="btn-text" data-en="Behance" data-fr="Behance" data-es="Behance">Behance</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <div class="project-category">Brand Design</div>
+                    <h3 class="project-title" data-en="Brand Identity Design" data-fr="Design d'Identité de Marque" data-es="Diseño de Identidad de Marca">Brand Identity Design</h3>
+                    <p class="project-description" 
+                       data-en="Complete brand identity package including logo design, color palette, typography, and brand guidelines for a tech startup."
+                       data-fr="Package d'identité de marque complet incluant la conception de logo, la palette de couleurs, la typographie et les directives de marque pour une startup tech."
+                       data-es="Paquete completo de identidad de marca que incluye diseño de logo, paleta de colores, tipografía y directrices de marca para una startup tecnológica.">
+                        Complete brand identity package including logo design, color palette, typography, and brand guidelines for a tech startup.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Illustrator</span>
+                        <span class="tech-tag">Photoshop</span>
+                        <span class="tech-tag">Figma</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="portfolio-item" data-category="mobile">
+                <div class="project-image">
+                    <img src="assets/images/project3.jpg" alt="Fitness Tracking App" class="project-img">
+                    <div class="project-overlay">
+                        <div class="project-actions">
+                            <button class="action-btn preview-btn" data-project="3">
+                                <span class="btn-icon">👁️</span>
+                                <span class="btn-text" data-en="Preview" data-fr="Aperçu" data-es="Vista Previa">Preview</span>
+                            </button>
+                            <button class="action-btn github-btn" onclick="window.open('#', '_blank')">
+                                <span class="btn-icon">📂</span>
+                                <span class="btn-text" data-en="Code" data-fr="Code" data-es="Código">Code</span>
+                            </button>
+                            <button class="action-btn store-btn" onclick="window.open('#', '_blank')">
+                                <span class="btn-icon">📱</span>
+                                <span class="btn-text" data-en="App Store" data-fr="App Store" data-es="App Store">App Store</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <div class="project-category">Mobile App</div>
+                    <h3 class="project-title" data-en="Fitness Tracking App" data-fr="App de Suivi Fitness" data-es="App de Seguimiento Fitness">Fitness Tracking App</h3>
+                    <p class="project-description" 
+                       data-en="React Native fitness app with workout tracking, progress analytics, and social features. Integrated with health APIs and wearable devices."
+                       data-fr="Application fitness React Native avec suivi d'entraînement, analyses de progression et fonctionnalités sociales. Intégrée avec des APIs de santé et des appareils portables."
+                       data-es="App de fitness en React Native con seguimiento de entrenamientos, análisis de progreso y características sociales. Integrada con APIs de salud y dispositivos wearables.">
+                        React Native fitness app with workout tracking, progress analytics, and social features. Integrated with health APIs and wearable devices.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">React Native</span>
+                        <span class="tech-tag">Firebase</span>
+                        <span class="tech-tag">HealthKit</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="portfolio-item" data-category="web">
+                <div class="project-image">
+                    <img src="assets/images/project4.jpg" alt="Task Management Dashboard" class="project-img">
+                    <div class="project-overlay">
+                        <div class="project-actions">
+                            <button class="action-btn preview-btn" data-project="4">
+                                <span class="btn-icon">👁️</span>
+                                <span class="btn-text" data-en="Preview" data-fr="Aperçu" data-es="Vista Previa">Preview</span>
+                            </button>
+                            <button class="action-btn github-btn" onclick="window.open('#', '_blank')">
+                                <span class="btn-icon">📂</span>
+                                <span class="btn-text" data-en="Code" data-fr="Code" data-es="Código">Code</span>
+                            </button>
+                            <button class="action-btn live-btn" onclick="window.open('#', '_blank')">
+                                <span class="btn-icon">🚀</span>
+                                <span class="btn-text" data-en="Live" data-fr="Live" data-es="En Vivo">Live</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <div class="project-category">Web Application</div>
+                    <h3 class="project-title" data-en="Task Management Dashboard" data-fr="Tableau de Bord de Gestion des Tâches" data-es="Panel de Gestión de Tareas">Task Management Dashboard</h3>
+                    <p class="project-description" 
+                       data-en="Collaborative project management tool with real-time updates, team collaboration features, and advanced analytics dashboard."
+                       data-fr="Outil de gestion de projet collaboratif avec mises à jour en temps réel, fonctionnalités de collaboration d'équipe et tableau de bord d'analyses avancées."
+                       data-es="Herramienta de gestión de proyectos colaborativa con actualizaciones en tiempo real, características de colaboración en equipo y panel de análisis avanzado.">
+                        Collaborative project management tool with real-time updates, team collaboration features, and advanced analytics dashboard.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Vue.js</span>
+                        <span class="tech-tag">Socket.io</span>
+                        <span class="tech-tag">PostgreSQL</span>
+                        <span class="tech-tag">Chart.js</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 5 -->
+            <div class="portfolio-item" data-category="design">
+                <div class="project-image">
+                    <img src="assets/images/project5.jpg" alt="UI/UX Design System" class="project-img">
+                    <div class="project-overlay">
+                        <div class="project-actions">
+                            <button class="action-btn preview-btn" data-project="5">
+                                <span class="btn-icon">👁️</span>
+                                <span class="btn-text" data-en="Preview" data-fr="Aperçu" data-es="Vista Previa">Preview</span>
+                            </button>
+                            <button class="action-btn figma-btn" onclick="window.open('#', '_blank')">
+                                <span class="btn-icon">🎯</span>
+                                <span class="btn-text" data-en="Figma" data-fr="Figma" data-es="Figma">Figma</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <div class="project-category">UI/UX Design</div>
+                    <h3 class="project-title" data-en="Design System" data-fr="Système de Design" data-es="Sistema de Diseño">Design System</h3>
+                    <p class="project-description" 
+                       data-en="Comprehensive design system with reusable components, style guides, and documentation for a fintech application."
+                       data-fr="Système de design complet avec composants réutilisables, guides de style et documentation pour une application fintech."
+                       data-es="Sistema de diseño integral con componentes reutilizables, guías de estilo y documentación para una aplicación fintech.">
+                        Comprehensive design system with reusable components, style guides, and documentation for a fintech application.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Figma</span>
+                        <span class="tech-tag">Design Tokens</span>
+                        <span class="tech-tag">Storybook</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 6 -->
+            <div class="portfolio-item" data-category="web">
+                <div class="project-image">
+                    <img src="assets/images/project6.jpg" alt="AI-Powered Analytics Platform" class="project-img">
+                    <div class="project-overlay">
+                        <div class="project-actions">
+                            <button class="action-btn preview-btn" data-project="6">
+                                <span class="btn-icon">👁️</span>
+                                                                <span class="btn-text" data-en="Preview" data-fr="Aperçu" data-es="Vista Previa">Preview</span>
+                            </button>
+                            <button class="action-btn github-btn" onclick="window.open('#', '_blank')">
+                                <span class="btn-icon">📂</span>
+                                <span class="btn-text" data-en="Code" data-fr="Code" data-es="Código">Code</span>
+                            </button>
+                            <button class="action-btn live-btn" onclick="window.open('#', '_blank')">
+                                <span class="btn-icon">🚀</span>
+                                <span class="btn-text" data-en="Live" data-fr="Live" data-es="En Vivo">Live</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <div class="project-category">AI/ML Project</div>
+                    <h3 class="project-title" data-en="AI Analytics Platform" data-fr="Plateforme d'Analyse IA" data-es="Plataforma de Análisis IA">AI Analytics Platform</h3>
+                    <p class="project-description" 
+                       data-en="Machine learning-powered analytics platform with predictive insights, data visualization, and automated reporting features."
+                       data-fr="Plateforme d'analyse alimentée par l'apprentissage automatique avec des insights prédictifs, visualisation de données et fonctionnalités de rapport automatisé."
+                       data-es="Plataforma de análisis impulsada por aprendizaje automático con insights predictivos, visualización de datos y características de informes automatizados.">
+                        Machine learning-powered analytics platform with predictive insights, data visualization, and automated reporting features.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">TensorFlow</span>
+                        <span class="tech-tag">D3.js</span>
+                        <span class="tech-tag">FastAPI</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Load More Button -->
+        <div class="portfolio-actions">
+            <button class="load-more-btn" data-en="Load More Projects" data-fr="Charger Plus de Projets" data-es="Cargar Más Proyectos">
+                Load More Projects
+                <span class="btn-arrow">→</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Project Modal -->
+    <div class="project-modal" id="projectModal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="modal-close">&times;</button>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <img src="" alt="" id="modalImage">
+                </div>
+                <div class="modal-info">
+                    <h3 id="modalTitle"></h3>
+                    <p id="modalDescription"></p>
+                    <div class="modal-tech" id="modalTech"></div>
+                    <div class="modal-actions">
+                        <button class="modal-btn github-btn" id="modalGithub">
+                            <span>📂</span> View Code
+                        </button>
+                        <button class="modal-btn live-btn" id="modalLive">
+                            <span>🚀</span> Live Demo
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Background Elements -->
+    <div class="portfolio-bg-elements">
+        <div class="grid-pattern"></div>
+        <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+    </div>
+</section>
+<!-- Add this right after the portfolio section -->
+
+<!-- ========== CONTACT SECTION ========== -->
+<section class="contact" id="contact">
+    <div class="contact-container">
+        <!-- Section Header -->
+        <div class="section-header">
+            <span class="section-label" data-en="Get In Touch" data-fr="Contactez-moi" data-es="Ponte en Contacto">Get In Touch</span>
+            <h2 class="section-title" data-en="Contact Me" data-fr="Contactez-moi" data-es="Contáctame">Contact Me</h2>
+            <div class="section-divider">
+                <div class="divider-line"></div>
+                <div class="divider-dot"></div>
+                <div class="divider-line"></div>
+            </div>
+            <p class="section-description" 
+               data-en="Ready to bring your ideas to life? Let's discuss your next project and create something amazing together."
+               data-fr="Prêt à donner vie à vos idées ? Discutons de votre prochain projet et créons quelque chose d'incroyable ensemble."
+               data-es="¿Listo para dar vida a tus ideas? Hablemos de tu próximo proyecto y creemos algo increíble juntos.">
+                Ready to bring your ideas to life? Let's discuss your next project and create something amazing together.
+            </p>
+        </div>
+
+        <!-- Contact Content -->
+        <div class="contact-content">
+            <!-- Contact Info -->
+            <div class="contact-info">
+                <div class="contact-card">
+                    <div class="card-icon">📧</div>
+                    <h3 data-en="Email Me" data-fr="Envoyez-moi un Email" data-es="Envíame un Email">Email Me</h3>
+                    <p data-en="Drop me a line anytime" data-fr="Écrivez-moi à tout moment" data-es="Escríbeme en cualquier momento">Drop me a line anytime</p>
+                    <a href="mailto:hello@darlculus.com" class="contact-link">hello@darlculus.com</a>
+                </div>
+
+                <div class="contact-card">
+                    <div class="card-icon">📱</div>
+                    <h3 data-en="Call Me" data-fr="Appelez-moi" data-es="Llámame">Call Me</h3>
+                    <p data-en="Available Mon-Fri, 9AM-6PM" data-fr="Disponible Lun-Ven, 9h-18h" data-es="Disponible Lun-Vie, 9AM-6PM">Available Mon-Fri, 9AM-6PM</p>
+                    <a href="tel:+1234567890" class="contact-link">+1 (234) 567-890</a>
+                </div>
+
+                <div class="contact-card">
+                    <div class="card-icon">📍</div>
+                    <h3 data-en="Location" data-fr="Localisation" data-es="Ubicación">Location</h3>
+                    <p data-en="Based in" data-fr="Basé à" data-es="Ubicado en">Based in</p>
+                    <span class="contact-link">New York, USA</span>
+                </div>
+
+                <div class="contact-card">
+                    <div class="card-icon">💼</div>
+                    <h3 data-en="Freelance Status" data-fr="Statut Freelance" data-es="Estado Freelance">Freelance Status</h3>
+                    <p data-en="Available for projects" data-fr="Disponible pour projets" data-es="Disponible para proyectos">Available for projects</p>
+                    <span class="contact-link status-available" data-en="Available Now" data-fr="Disponible Maintenant" data-es="Disponible Ahora">Available Now</span>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="contact-form-wrapper">
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <div class="input-group">
+                            <input type="text" id="firstName" name="firstName" required>
+                            <label for="firstName" data-en="First Name" data-fr="Prénom" data-es="Nombre">First Name</label>
+                            <span class="input-highlight"></span>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" id="lastName" name="lastName" required>
+                            <label for="lastName" data-en="Last Name" data-fr="Nom" data-es="Apellido">Last Name</label>
+                            <span class="input-highlight"></span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="input-group">
+                            <input type="email" id="email" name="email" required>
+                            <label for="email" data-en="Email Address" data-fr="Adresse Email" data-es="Dirección de Email">Email Address</label>
+                            <span class="input-highlight"></span>
+                        </div>
+                        <div class="input-group">
+                            <input type="tel" id="phone" name="phone">
+                            <label for="phone" data-en="Phone Number" data-fr="Numéro de Téléphone" data-es="Número de Teléfono">Phone Number</label>
+                            <span class="input-highlight"></span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="input-group full-width">
+                            <select id="projectType" name="projectType" required>
+                                <option value="" disabled selected></option>
+                                <option value="web-development" data-en="Web Development" data-fr="Développement Web" data-es="Desarrollo Web">Web Development</option>
+                                <option value="mobile-app" data-en="Mobile App" data-fr="Application Mobile" data-es="Aplicación Móvil">Mobile App</option>
+                                <option value="ui-ux-design" data-en="UI/UX Design" data-fr="Design UI/UX" data-es="Diseño UI/UX">UI/UX Design</option>
+                                <option value="branding" data-en="Branding & Identity" data-fr="Branding & Identité" data-es="Branding e Identidad">Branding & Identity</option>
+                                <option value="consultation" data-en="Consultation" data-fr="Consultation" data-es="Consultoría">Consultation</option>
+                                <option value="other" data-en="Other" data-fr="Autre" data-es="Otro">Other</option>
+                            </select>
+                            <label for="projectType" data-en="Project Type" data-fr="Type de Projet" data-es="Tipo de Proyecto">Project Type</label>
+                            <span class="input-highlight"></span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="input-group full-width">
+                            <input type="text" id="budget" name="budget">
+                            <label for="budget" data-en="Budget Range (Optional)" data-fr="Gamme de Budget (Optionnel)" data-es="Rango de Presupuesto (Opcional)">Budget Range (Optional)</label>
+                            <span class="input-highlight"></span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="input-group full-width">
+                            <textarea id="message" name="message" rows="6" required></textarea>
+                            <label for="message" data-en="Tell me about your project..." data-fr="Parlez-moi de votre projet..." data-es="Cuéntame sobre tu proyecto...">Tell me about your project...</label>
+                            <span class="input-highlight"></span>
+                        </div>
+                    </div>
+
+                    <div class="form-actions">
+                        <button type="submit" class="submit-btn">
+                            <span class="btn-text" data-en="Send Message" data-fr="Envoyer le Message" data-es="Enviar Mensaje">Send Message</span>
+                            <span class="btn-icon">🚀</span>
+                            <div class="btn-loading">
+                                <div class="loading-spinner"></div>
+                            </div>
+                        </button>
+                    </div>
+                </form>
+
+                <!-- Form Status Messages -->
+                <div class="form-status" id="formStatus">
+                    <div class="status-success" id="successMessage">
+                        <span class="status-icon">✅</span>
+                        <span class="status-text" data-en="Message sent successfully! I'll get back to you soon." data-fr="Message envoyé avec succès ! Je vous répondrai bientôt." data-es="¡Mensaje enviado exitosamente! Te responderé pronto.">Message sent successfully! I'll get back to you soon.</span>
+                    </div>
+                    <div class="status-error" id="errorMessage">
+                        <span class="status-icon">❌</span>
+                        <span class="status-text" data-en="Oops! Something went wrong. Please try again." data-fr="Oups ! Quelque chose s'est mal passé. Veuillez réessayer." data-es="¡Ups! Algo salió mal. Por favor intenta de nuevo.">Oops! Something went wrong. Please try again.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Social Links -->
+        <div class="contact-social">
+            <h3 data-en="Let's Connect" data-fr="Connectons-nous" data-es="Conectemos">Let's Connect</h3>
+            <div class="social-links">
+                <a href="https://linkedin.com/in/darlculus" target="_blank" class="social-link linkedin">
+                    <span class="social-icon">💼</span>
+                    <span class="social-name">LinkedIn</span>
+                </a>
+                <a href="https://github.com/darlculus" target="_blank" class="social-link github">
+                    <span class="social-icon">📂</span>
+                    <span class="social-name">GitHub</span>
+                </a>
+                <a href="https://twitter.com/darlculus" target="_blank" class="social-link twitter">
+                    <span class="social-icon">🐦</span>
+                    <span class="social-name">Twitter</span>
+                </a>
+                <a href="https://behance.net/darlculus" target="_blank" class="social-link behance">
+                    <span class="social-icon">🎨</span>
+                    <span class="social-name">Behance</span>
+                </a>
+                <a href="https://dribbble.com/darlculus" target="_blank" class="social-link dribbble">
+                    <span class="social-icon">🏀</span>
+                    <span class="social-name">Dribbble</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Background Elements -->
+    <div class="contact-bg-elements">
+        <div class="contact-particles"></div>
+        <div class="gradient-orbs">
+            <div class="orb orb-1"></div>
+            <div class="orb orb-2"></div>
+            <div class="orb orb-3"></div>
+        </div>
+    </div>
+</section>
+<!-- Add this right after the contact section -->
+
+<!-- ========== FOOTER SECTION ========== -->
+<footer class="footer">
+    <div class="footer-container">
+        <!-- Footer Main Content -->
+        <div class="footer-content">
+            <!-- Footer Brand -->
+            <div class="footer-brand">
+                <div class="footer-logo">
+                    <span class="logo-text">Darlculus</span>
+                    <div class="logo-pulse"></div>
+                </div>
+                <p class="footer-tagline" 
+                   data-en="Crafting digital experiences that inspire and engage."
+                   data-fr="Créer des expériences numériques qui inspirent et engagent."
+                   data-es="Creando experiencias digitales que inspiran y cautivan.">
+                    Crafting digital experiences that inspire and engage.
+                </p>
+                <div class="footer-social">
+                    <a href="https://linkedin.com/in/darlculus" target="_blank" class="footer-social-link">
+                        <span class="social-icon">💼</span>
+                    </a>
+                    <a href="https://github.com/darlculus" target="_blank" class="footer-social-link">
+                        <span class="social-icon">📂</span>
+                    </a>
+                    <a href="https://twitter.com/darlculus" target="_blank" class="footer-social-link">
+                        <span class="social-icon">🐦</span>
+                    </a>
+                    <a href="https://behance.net/darlculus" target="_blank" class="footer-social-link">
+                        <span class="social-icon">🎨</span>
+                    </a>
+                    <a href="https://dribbble.com/darlculus" target="_blank" class="footer-social-link">
+                        <span class="social-icon">🏀</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="footer-links">
+                <h4 data-en="Quick Links" data-fr="Liens Rapides" data-es="Enlaces Rápidos">Quick Links</h4>
+                <ul>
+                    <li><a href="#home" data-en="Home" data-fr="Accueil" data-es="Inicio">Home</a></li>
+                    <li><a href="#about" data-en="About" data-fr="À Propos" data-es="Acerca de">About</a></li>
+                    <li><a href="#portfolio" data-en="Portfolio" data-fr="Portfolio" data-es="Portafolio">Portfolio</a></li>
+                    <li><a href="#contact" data-en="Contact" data-fr="Contact" data-es="Contacto">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Services -->
+            <div class="footer-services">
+                <h4 data-en="Services" data-fr="Services" data-es="Servicios">Services</h4>
+                <ul>
+                    <li data-en="Web Development" data-fr="Développement Web" data-es="Desarrollo Web">Web Development</li>
+                    <li data-en="Mobile Apps" data-fr="Applications Mobiles" data-es="Aplicaciones Móviles">Mobile Apps</li>
+                    <li data-en="UI/UX Design" data-fr="Design UI/UX" data-es="Diseño UI/UX">UI/UX Design</li>
+                    <li data-en="Branding" data-fr="Image de Marque" data-es="Branding">Branding</li>
+                </ul>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="footer-contact">
+                <h4 data-en="Get In Touch" data-fr="Contactez-moi" data-es="Ponte en Contacto">Get In Touch</h4>
+                <div class="footer-contact-item">
+                    <span class="contact-icon">📧</span>
+                    <a href="mailto:hello@darlculus.com">hello@darlculus.com</a>
+                </div>
+                <div class="footer-contact-item">
+                    <span class="contact-icon">📱</span>
+                    <a href="tel:+1234567890">+1 (234) 567-890</a>
+                </div>
+                <div class="footer-contact-item">
+                    <span class="contact-icon">📍</span>
+                    <span>New York, USA</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <div class="footer-copyright">
+                <p>&copy; 2025 Darlculus. <span data-en="All rights reserved." data-fr="Tous droits réservés." data-es="Todos los derechos reservados.">All rights reserved.</span></p>
+            </div>
+            <div class="footer-credits">
+                <p data-en="Made with ❤️ and lots of ☕" data-fr="Fait avec ❤️ et beaucoup de ☕" data-es="Hecho con ❤️ y mucho ☕">Made with ❤️ and lots of ☕</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Background Elements -->
+    <div class="footer-bg-elements">
+        <div class="footer-waves">
+            <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25"></path>
+                <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5"></path>
+                <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"></path>
+            </svg>
+        </div>
+    </div>
+</footer>
+
+<!-- ========== CREATIVE SCROLL TO TOP BUTTON ========== -->
+<div class="scroll-to-top" id="scrollToTop">
+    <div class="rocket-container">
+        <div class="rocket">
+            <div class="rocket-body">🚀</div>
+            <div class="rocket-flame">
+                <div class="flame flame-1"></div>
+                <div class="flame flame-2"></div>
+                <div class="flame flame-3"></div>
+            </div>
+        </div>
+        <div class="rocket-trail">
+            <div class="trail-particle"></div>
+            <div class="trail-particle"></div>
+            <div class="trail-particle"></div>
+            <div class="trail-particle"></div>
+            <div class="trail-particle"></div>
+        </div>
+    </div>
+    <div class="scroll-progress">
+        <svg class="progress-ring" width="70" height="70">
+            <circle class="progress-ring-bg" cx="35" cy="35" r="30"></circle>
+            <circle class="progress-ring-fill" cx="35" cy="35" r="30"></circle>
+        </svg>
+    </div>
+    <div class="scroll-text" data-en="Blast Off!" data-fr="Décollage!" data-es="¡Despegue!">Blast Off!</div>
+</div>
+
+    </div>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
