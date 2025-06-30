@@ -865,27 +865,25 @@ document.addEventListener('DOMContentLoaded', function() {
     // Project data (you can expand this with real project data)
     const projectData = {
         1: {
-            title: "E-Commerce Platform",
-            description: "A comprehensive e-commerce solution built with modern technologies. Features include user authentication, payment processing, inventory management, and an admin dashboard. The platform is designed to handle high traffic and provides a seamless shopping experience.",
-            image: "assets/images/project1.jpg",
-            tech: ["React", "Node.js", "MongoDB", "Stripe", "Redux", "Express"],
-            github: "https://github.com/darlculus/ecommerce-platform",
-            live: "https://ecommerce-demo.darlculus.com"
+            title: "Tangitex Technologies Website",
+            description: "Modern React-based corporate website for Tangitex Technologies. Built with cutting-edge web technologies to deliver an exceptional user experience. Features include responsive design, dynamic content management, SEO optimization, and fast loading performance. The site showcases the company's services and expertise in technology solutions.",
+            image: "assets/images/portfolio 1.png",
+            tech: ["React", "JavaScript", "CSS3", "Responsive Design", "SEO", "Performance Optimization"],
+            live: "https://tangitex.ng"
         },
         2: {
-            title: "Brand Identity Design",
-            description: "Complete brand identity package for a tech startup including logo design, color palette, typography guidelines, business cards, and brand manual. The design reflects innovation and trustworthiness.",
-            image: "assets/images/project2.jpg",
-            tech: ["Illustrator", "Photoshop", "Figma", "InDesign"],
-            behance: "https://behance.net/darlculus/brand-identity"
+            title: "Tangitex Technologies Branding",
+            description: "Comprehensive brand identity design for Tangitex Technologies featuring logo design, business card design, and stunning mockup presentations. This project showcases a modern, professional visual identity that perfectly captures the company's innovation and technological excellence. The design system includes carefully crafted typography, color schemes, and visual elements that work harmoniously across all brand touchpoints.",
+            image: "assets/images/portfolio 3.jpg",
+            tech: ["Adobe Illustrator", "Adobe Photoshop", "Logo Design", "Brand Identity", "Print Design", "Mockup Design"],
+            behance: "https://www.behance.net/gallery/229305891/Branding-for-Tangitex-Technologies?share=1"
         },
         3: {
-            title: "Fitness Tracking App",
-            description: "Cross-platform mobile application for fitness tracking with workout plans, progress analytics, social features, and integration with wearable devices. Built with React Native for optimal performance.",
-            image: "assets/images/project3.jpg",
-            tech: ["React Native", "Firebase", "HealthKit", "Redux", "Expo"],
-            github: "https://github.com/darlculus/fitness-tracker",
-            store: "https://apps.apple.com/fitness-tracker"
+            title: "Propamit Documentation Platform",
+            description: "Comprehensive vehicle documentation platform designed for Propamit, a leading company in vehicle documentation services. The project includes a modern, responsive website and a secure user dashboard system. Features include user registration and authentication, document management capabilities, and an intuitive dashboard interface that allows registered users to efficiently manage their vehicle documentation processes. The platform is built with modern web technologies to ensure optimal performance and user experience.",
+            image: "assets/images/portfolio 2.png",
+            tech: ["Web Development", "Dashboard Design", "User Authentication", "Document Management", "Responsive Design", "Security"],
+            live: "https://propamit.com"
         },
         4: {
             title: "Task Management Dashboard",
